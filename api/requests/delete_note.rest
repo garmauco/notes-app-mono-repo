@@ -1,0 +1,2 @@
+    response.status(204).end()
+DELETE http://localhost:3001/api/notes/605cf8083372864dd4663682

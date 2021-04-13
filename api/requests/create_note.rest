@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjVlMmIyMWU1MjFmMjJiNDM4ZGE0OSIsInVzZXJuYW1lIjoiR2FybWF1Y28iLCJpYXQiOjE2MTczNzU1MjF9.nLI0NHbjvJS_uQSFYU-ALTfSCrbUD6WAzvBaGJ5I3QA
+
+{
+  "content" : "Nueva nota con token middleware",
+  "important" : true
+}
